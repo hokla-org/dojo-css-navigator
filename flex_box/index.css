@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-flow: column-reverse wrap-reverse;
+  align-content: space-between;
+  justify-content: center;
+  height: 500px;
+  width: 500px;
+}
+
+.element {
+  width: 100px;
+  height: 100px;
+}
+
+.blue {
+  background-color: blue;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.lightgray {
+  background-color: lightgray;
+}
