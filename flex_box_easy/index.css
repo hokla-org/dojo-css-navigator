@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 600px;
+  width: 600px;
+  /* max-width: fit-content;
+  max-height: fit-content;
+  gap: 10px;
+  padding: 5px;
+  border: solid black 3px;
+  border-radius: 150px; */
+}
+
+.element {
+  width: 100px;
+  height: 100px;
+  /* border-radius: 50%; */
+}
+
+.red {
+  background-color: red;
+}
+.orange {
+  background-color: orange;
+}
+.green {
+  background-color: green;
+}
+.lightgray {
+  background-color: lightgray;
+}
