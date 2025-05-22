@@ -1,0 +1,15 @@
+.container {
+  width: 80px;
+  border: solid red 20px;
+}
+.element {
+  width: 100%;
+  height: 80px;
+  border: solid blue 20px;
+  padding: 20px;
+
+  box-sizing: content-box; /* default */
+}
+.element:last-child {
+  box-sizing: border-box;
+}
