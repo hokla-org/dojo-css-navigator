@@ -1,0 +1,22 @@
+div {
+  height: 200px;
+  width: 200px;
+}
+
+.parent {
+  z-index: 3;
+
+  background: green;
+}
+
+.child {
+  z-index: 50;
+
+  background: blue;
+}
+
+.outer {
+  z-index: 4;
+
+  background: red;
+}
